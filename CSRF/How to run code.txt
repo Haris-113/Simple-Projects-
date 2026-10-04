@@ -1,0 +1,23 @@
+How to run code
+
+Requirements: 
+VS code
+PHP 8.x installed
+PHP SQLite extension enabled
+All files should be placed in the same directory 
+Access to the terminal OR powershell 
+
+Initialise database 
+php init_db.php
+
+2. Start PHP development server 
+php -S localhost:8000
+
+3. Open the application 
+http://localhost:8000/login.php
+this will auto log you in and redirect you to /dashboard.php
+
+4. Begin CRSF attack 
+open the attacker.html in a separate browser tab 
+
+if all works this SHOULD changed the logged in users email to hacked@attacker.com
